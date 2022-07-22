@@ -94,6 +94,8 @@ body {
     align-items: center;
     border-bottom: 1px solid #ECECEC;
     max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
