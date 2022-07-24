@@ -25,8 +25,7 @@
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
@@ -91,22 +90,24 @@ body {
 /*-------HEADER--------*/
 
 .header {
-    align-items: center;
+    
     border-bottom: 1px solid #ECECEC;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
-
 
 .header-container {
     display: flex;
     align-items: center;
 }
 
+.header-nav {
+    margin-left: 93px;
+}
+
+
 .header-list {
     display: flex;
-    margin-left: 93px;
+    
 }
 
 .header-item + .header-item {
@@ -122,7 +123,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-        color: var(--head-text-color);
+    color: var(--head-text-color);
 }
 
 .header-link:hover,
@@ -168,7 +169,6 @@ body {
     margin-right: auto;
     text-align: center;
     max-width: 1600px;
-    height: 600px;
 }
 
 .hero-title {
@@ -212,10 +212,13 @@ body {
 
 /*---------FEATURES-------*/
 
-.features-list {
-    display: flex;
+.features {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.features-list {
+    display: flex;
     margin-left: -30px;
 }
 
@@ -243,14 +246,15 @@ body {
 
 /*---------DOING,---TEAM-------*/
 
+.doing {
+    padding-bottom: 94px;
+}
 
 .doing-list {
     display: flex;
-    padding-bottom: 94px;
     margin-top: 50px;
     gap: 30px;
 }
-
 
 .doing-title, .team-title {
         font-weight: 700;
@@ -264,7 +268,6 @@ body {
 /*---------TEAM-------*/
 
 .team {
-    max-width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
     margin-left: auto;
@@ -280,8 +283,7 @@ body {
 }
 
 .team-content {
-    height: 108px;
-    padding: 30px 61px;
+    padding: 20px 20px;
     text-align: center;
 }
 
@@ -316,17 +318,21 @@ body {
 
 .basement {
     background-color: var(--background-color);
-    max-width: 1600px;
-    height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.basement-link {
-    display: block;
+.basement-list {
     margin-top: 9px;
+}
+
+.basement-item {
+    margin-top: 9px;
+}
+
+.basement-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -363,11 +369,8 @@ body {
                 /*PORTFOLIO*/
 
 .project {
-    max-width: 1600px;
         padding-top: 94px;
         padding-bottom: 94px;
-        margin-left: auto;
-        margin-right: auto;
 }
 
 /*---------BTN-------*/
@@ -376,7 +379,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .btn-style {
@@ -426,10 +429,11 @@ body {
 .project-content {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
-    border-style: none solid solid solid;
+    border-top: none;
 }
 
 .project-text {
+    margin-top: 4px;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
