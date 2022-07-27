@@ -282,7 +282,7 @@ body {
 }
 
 .team-content {
-    padding: 20px 20px;
+    padding: 30px 30px;
     text-align: center;
 }
 
@@ -327,7 +327,7 @@ body {
     margin-top: 9px;
 }
 
-.basement-item {
+.basement-item + .basement-item {
     margin-top: 9px;
 }
 
